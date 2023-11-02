@@ -5,6 +5,7 @@ import { Info } from '../info/info';
 function App() {
   return (
 <>
+
 <Info></Info>
 <main className="phone">
 <Keyboard></Keyboard>
@@ -13,7 +14,7 @@ function App() {
 
 </>
 
-  )
+  );
 }
 
 export default App;
