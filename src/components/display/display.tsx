@@ -1,5 +1,7 @@
 export function Display() {
   return(
-    <span className="number">667359961</span>
+    <span role="display" className="number">
+      667359961
+      </span>
   )
 }

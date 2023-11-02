@@ -1,11 +1,11 @@
-import { Display } from "../display/display";
-import { Action } from "../action/action";
+import { Action } from '../action/action';
+import { Display } from '../display/display';
 
 export function Actions() {
-  return(
-<div className="actions">
-  <Display></Display>
-  <Action></Action>
-</div>
+  return (
+    <div role="actions" className="actions">
+      <Display></Display>
+      <Action></Action>
+    </div>
   );
 }
